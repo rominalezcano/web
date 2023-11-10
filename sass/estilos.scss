@@ -1,0 +1,39 @@
+@import '_variables.scss';
+@import '_animacion.scss';
+@import '_breakpoints.scss';
+@import '_iconos.scss';
+@import '_images.scss';
+@import '_mixins.scss';
+@import '_texto.scss';
+@import '_titulos.scss';
+
+
+
+/*SERVICIOS*/
+
+.inicio-servicios .btn-servicios,
+.btn-contacto {
+    font-family: poppins;
+    font-size: large;
+    background-color: beige;
+    padding: 0px 80px 0px 80px;
+    border: 1px solid black;
+}
+
+.inicio-servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.homestudio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.clase-logo {
+    width: 50px;
+    height: 50px;
+}

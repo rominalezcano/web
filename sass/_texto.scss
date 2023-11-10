@@ -1,0 +1,138 @@
+/*INDEX*/
+.bienvenida {
+    text-align: center;
+    font-size: 20px;
+    font-family: poppins;
+    font-style: cursive;
+    font-weight: bold;
+    // margin: 50px;    
+}
+
+
+/*CLASES*/
+
+.formulario {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.msj {
+    width: 500px;
+    height: 200px;
+}
+
+
+.texto-clases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-gap: 10px;
+
+}
+
+.texto-clases p {
+
+    text-decoration: none;
+    font-family: poppins;
+
+    font-size: 20px;
+}
+
+.contenido-clase {
+    width: 500px;
+    color: white;
+    background-color: rgba(56, 52, 52, 0.863);
+    border: 2px solid black;
+    font-size: medium;
+    font-family: poppins;
+    display: none;
+}
+
+
+/*SERVICIOS*/
+.servicio-texto {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+}
+
+
+.servicio-home {
+    text-align: center;
+    font-size: 20px;
+    font-family: poppins;
+    font-style: cursive;
+    font-weight: bold;
+    margin: 50px;
+    margin-top: 10%;
+}
+
+.homestudio-texto {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+}
+
+/*INFO*/
+.titulos-formacion,
+.titulos-experiencia {
+    text-align: center;
+}
+
+.texto {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.texto-escuela,
+.texto-exp {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2 .escuela {
+    font-size: large;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.cv {
+    text-align: center;
+}
+
+.whatsapp,
+.cv {
+    font-family: poppins;
+    font-size: 25px;
+}
+
+/*GENERAL*/
+
+footer {
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+span {
+    font-weight: bold;
+}

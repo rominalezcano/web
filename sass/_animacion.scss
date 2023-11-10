@@ -1,0 +1,51 @@
+footer p:hover {
+    color: rgba(56, 52, 52, 0.863);
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+/*SERVICIOS*/
+
+.servicio-titulos,
+.servicio-texto,
+.servicio-img {
+    display: none;
+}
+
+
+.inicio-servicios .btn-servicios:hover,
+.btn-contacto:hover {
+    background-color: black;
+    color: white;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+
+.btn-servicios:hover~.servicio-img {
+    display: block;
+}
+
+.btn-servicios:hover~.servicio-texto {
+    display: block;
+    border: 10px;
+}
+
+.btn-servicios:hover~.servicio-titulos {
+    display: block;
+}
+
+
+/*CLASES*/
+
+
+.claselogo:hover,
+.pdf:hover,
+.wp:hover {
+    cursor: pointer;
+
+}
+
+.claselogo:hover~.contenido-clase {
+    display: block;
+}
